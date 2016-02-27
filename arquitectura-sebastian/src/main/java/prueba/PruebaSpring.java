@@ -18,6 +18,8 @@ public class PruebaSpring {
 //		BeanSpring miBean = (BeanSpring) factory.getBean("miBean");
 //		System.out.println("Mensaje: " + miBean.getMensaje());
 		
+		//Jorge Valencia
+		
 		BeanArquitectura arquitecturaBean = (BeanArquitectura) factory.getBean("arquitecturaBean");
 		System.out.println("Resultado Division: " + arquitecturaBean.getDividendo()+"/ "+ arquitecturaBean.getDivisor() +" = " + arquitecturaBean.division());
 	}
